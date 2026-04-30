@@ -1,0 +1,15 @@
+let
+    Source = YourTableName,
+    Grouped = Table.Group(
+        Source,
+        {"Date"},
+        {
+            {"Production", each List.Sum([Gas_scmd]), type number},
+            {"Potential", each List.Sum([Well_Potential]), type number}
+        }
+    ),
+    AddedDiff = Table.AddColumn(Grouped, "Difference", each [Production] - [Potential]),
+    AddedPositive = Table.AddColumn(AddedDiff, "Positive", each if [Difference] > 0 then [Difference] else 0),
+    AddedNegative = Table.AddColumn(AddedPositive, "Negative", each if [Difference] < 0 then [Difference] else 0)
+in
+    AddedNegative
