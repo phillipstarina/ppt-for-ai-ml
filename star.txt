@@ -1,0 +1,45 @@
+Design a professional internship presentation in a dark analytics dashboard theme.
+
+Student Name: Starina Phillips
+Program: M.Tech CSE (1st Year)
+University: Christ University
+
+Internship:
+Organization: Reliance Industries Limited (CBM Division, Shahdol, M.P.)
+Duration: 6 March 2026 – 7 April 2026
+Role: Data Analytics Intern
+
+Projects (3):
+1. Gas Production Monitoring Dashboard
+2. CBM Production & Potential Analysis Dashboard
+   - Includes well filters, date slicers, and bar chart insights
+   - Peak production observed: 92 SCMD
+3. Hidden Pattern Detection App
+   - Machine learning-based anomaly detection using Scikit-learn
+   - GUI built with Tkinter
+
+Tech Stack:
+Python, Pandas, Scikit-learn, Matplotlib, OpenPyXL, Tkinter, VS Code
+
+Slides Required:
+- Cover Slide
+- About Internship
+- Tech Stack
+- Projects Overview
+- Individual Project Slides (3)
+- Learnings
+- Conclusion
+- Thank You
+
+Design Style:
+- Dark navy background
+- Cyan and yellow accent lines
+- Rounded UI cards
+- Dashboard-style visuals
+- Clean and minimal text
+
+Ensure each project slide includes:
+- Problem
+- Approach
+- Tools used
+- Key insights
